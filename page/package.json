@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "suitcss": "^3.0.0",
+    "suitcss-base": "^4.0.0",
+    "suitcss-components": "^2.0.0",
+    "suitcss-preprocessor": "^4.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "suitcss index.css css/index.css"
+  }
+}
