@@ -1046,13 +1046,17 @@ li a:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.comment div {
+.Comments div {
   padding-left: 2em;
   padding-bottom: 2em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
 }
 
-.comment .user {
+.Comments .user {
   font-size: 2em;
+}
+
+@media all and (max-width: 40em) {
+  .Comments-bodyContent { display: none; }
 }
