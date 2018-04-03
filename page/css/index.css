@@ -976,7 +976,7 @@ article {
   padding: 1em;
 }
 
-.hero-image {
+.HeroImage {
   background-image: url("https://images.pexels.com/photos/408503/pexels-photo-408503.jpeg");
   height: 50%;
   background-position: center;
@@ -986,7 +986,7 @@ article {
   padding-top: 8em;
 }
 
-.hero-text {
+.HeroText {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -995,7 +995,7 @@ article {
   color: #eee; /*#666362*/
 }
 
-.header-container ul {
+.HeaderContainer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -1003,11 +1003,11 @@ article {
     background-color: #333;
 }
 
-.header-container li {
+.HeaderContainer li {
     float: left;
 }
 
-.header-container li a {
+.HeaderContainer li a {
     display: block;
     color: white;
     text-align: center;
@@ -1016,11 +1016,8 @@ article {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
 
-.footer-container{
+.FooterContainer{
   position: bottom;
   right: 0;
   left: 0;
@@ -1031,18 +1028,14 @@ li a:hover {
   color: white;
 }
 
-.footer-container ul {
-  list-style-type: none;
-}
-
-.card #body-cards div {
+.Card #body-cards div {
   display: inline-grid;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 1em;
   padding: 1em;
 }
 
-.card #body-cards div:hover {
+.Card #body-cards div:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
