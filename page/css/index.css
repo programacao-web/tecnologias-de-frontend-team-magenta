@@ -1016,7 +1016,7 @@ img {
   color: #eee; /*#666362*/
 }
 
-.HeaderContainer ul {
+.Navbar ul {
     list-style-type: none;
     z-index: 10;
     position: fixed;
@@ -1027,11 +1027,11 @@ img {
     width: 100vw;
 }
 
-.HeaderContainer li {
+.Navbar li {
     float: left;
 }
 
-.HeaderContainer li a {
+.Navbar li a {
     display: block;
     color: white;
     text-align: center;
