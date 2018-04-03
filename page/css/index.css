@@ -983,7 +983,7 @@ article {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 8em;
+  padding-top: 15em;
 }
 
 .HeroText {
@@ -997,10 +997,13 @@ article {
 
 .HeaderContainer ul {
     list-style-type: none;
+    z-index: 10;
+    position: fixed;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    width: 100vw;
 }
 
 .HeaderContainer li {
