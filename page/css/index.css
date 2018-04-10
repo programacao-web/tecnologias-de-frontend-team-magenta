@@ -1058,6 +1058,12 @@ img {
   padding: 1em;
 }
 
+#body-cards{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
 #body-cards div:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -1075,7 +1081,12 @@ img {
 
 /* For mobile */
 @media all and (max-width: 40em) {
-  .Comments-bodyContent { display: none; }
+  .Comments-bodyContent {
+    display: none;
+  }
+  #body-cards{
+    flex-direction: column;
+  }
 }
 
 /* For desktop */
@@ -1084,5 +1095,8 @@ img {
     font-size: 40px;
     font-family: serif;
     color: white;
+  }
+  #body-cards{
+    flex-direction: row;
   }
 }
