@@ -1,0 +1,15 @@
+#body-cards {
+  div {
+    box-shadow: $shadow;
+    margin: 1em;
+    padding: 1em;
+    &:hover {
+      box-shadow: $hover-shadow;
+    }
+  }
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+

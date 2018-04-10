@@ -1,0 +1,21 @@
+/* For mobile */
+@media all and (max-width: $mobile-max-width) {
+  .Comments-bodyContent {
+    display: none;
+  }
+  #body-cards {
+    flex-direction: column;
+  }
+}
+
+/* For desktop */
+@media only screen and (min-width: $desktop-min-width) {
+  [class*="HeroText"] {
+    font-size: $hero-text-size;
+    font-family: $hero-text-font;
+    color: $hero-text-color;
+  }
+  #body-cards {
+    flex-direction: row;
+  }
+}
