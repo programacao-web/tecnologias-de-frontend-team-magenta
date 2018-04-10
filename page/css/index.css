@@ -1073,6 +1073,16 @@ img {
   font-size: 2em;
 }
 
+/* For mobile */
 @media all and (max-width: 40em) {
   .Comments-bodyContent { display: none; }
+}
+
+/* For desktop */
+@media only screen and (min-width: 1024px) {
+  [class*="HeroText"] {
+    font-size: 40px;
+    font-family: serif;
+    color: white;
+  }
 }
