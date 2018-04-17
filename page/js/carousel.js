@@ -3,7 +3,7 @@
 var slider = {
     length: parseInt($("#content .page").length),
     current: 1,
-    width: $("section#content").width(),
+    width: 400,
     next: function(){
         if(this.current < this.length){
             this.current = this.current + 1;
@@ -41,3 +41,7 @@ var slider = {
 }
 
 slider.initialize();
+
+setInterval(function(){
+  slider.next();
+}, 3000);
