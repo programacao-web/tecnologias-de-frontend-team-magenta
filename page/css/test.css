@@ -1,0 +1,42 @@
+#wrap {
+  padding: 1em;
+  background: #333;
+}
+h1 {
+  font-weight: bold;
+}
+#controls {
+  clear: both;
+  height: 1em;
+  margin: 0 0 1em 0;
+}
+#controls div {
+  float: left;
+  margin: 0 0.5em 0 0;
+  padding: 0.2em;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+}
+#caption, #content {
+  background: #eee;
+  width: 500px;
+  position: relative;
+  left: 40%;
+  margin-left: -100px;
+  overflow: hidden;
+}
+#caption .pan, #content .pan {
+  width: 22000px;
+  position: static;
+}
+#caption .page, #content .page {
+  width: 400px;
+  float: left;
+}
+#caption .page h1, #content .page h1, #caption .page p, #content .page p {
+  margin: 0.2em 0.5em;
+}
+#content .page {
+  margin-right: 400px;
+}

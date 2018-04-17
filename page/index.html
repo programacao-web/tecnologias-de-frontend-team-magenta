@@ -1,9 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="pt-br">
+<html lang="pt-br">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title></title>
+
         <meta name="description" content="Pagina index para descricao do ranked pairs">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,7 +12,9 @@
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link rel="stylesheet" href="css/test.css">
         <link rel="stylesheet" href="css/main.css">
+
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
 
@@ -33,7 +36,7 @@
           </div>
         </div>
 
-        <article id="content">
+        <article>
           <h1>Content</h1>
           <p><strong>Lorem ipsum dolor sit amet, consectetur</strong> adipisicing elit, sed do eiusmod tempor <strong>incididunt ut labore</strong> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Tennessee_map_for_voting_example.svg/500px-Tennessee_map_for_voting_example.svg.png" alt="">
@@ -73,25 +76,36 @@
           </div>
         </section>
 
-        <section class="Comments">
-          <h1 id="comments">Comments</h1>
-          <div class="Comments-topComment">
+        <h1 id="comments">Comments</h1>
+
+        <div id="wrap">
+          <div id="controls">
+            <div class="prev">&larr;</div>
+            <div class="next">&rarr;</div>
+          </div>
+
+
+
+
+        <section id="content"><div class="pan">
+
+          <div class="page">
             <p class="user"><i class="material-icons">person</i>João</p>
             <p>Awesome!!</p>
           </div>
-          <div class="Comments-bodyContent">
+          <div class="page">
             <p class="user"><i class="material-icons">person</i>Pedro</p>
             <p>Very good, nice treatment.</p>
           </div>
-          <div class="Comments-bodyContent">
+          <div class="page">
             <p class="user"><i class="material-icons">person</i>Maria</p>
             <p>Really wonderful!</p>
           </div>
-          <div class="Comments-bodyContent">
+          <div class="page">
             <p class="user"><i class="material-icons">person</i>Juliana</p>
             <p>Really nice product and a wonderful treatment.</p>
           </div>
-        </section>
+        </section></div>
 
         <footer class="FooterContainer">
           <ul>
@@ -106,6 +120,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/carousel.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
